@@ -11,7 +11,8 @@ Group:		Libraries/Python
 Source0:	http://hkn.eecs.berkeley.edu/~dyoo/python/scanf/%{module}-%{version}.tar.gz
 # Source0-md5:	a617ca749a40c8f76dd98fc7b91a577d
 URL:		http://hkn.eecs.berkeley.edu/~dyoo/python/scanf/
-%pyrequires_eq  python-modules >= 2.3
+BuildRequires:	python >= 1:2.3
+%pyrequires_eq  python-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
