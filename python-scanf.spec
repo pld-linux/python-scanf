@@ -24,7 +24,7 @@ matching against strings and files.
 %description -l pl
 scanf jest modu³em Pythona umo¿liwiaj±cym wczytywanie danych ze
 standardowego wej¶cia, ci±gów znaków lub plików, u¿ywaj±c ci±gów
-formatuj±cych zgodnych ze znan± z jêzyka C funkcj± scnaf().
+formatuj±cych zgodnych ze znan± z jêzyka C funkcj± scanf().
 
 %prep
 %setup -q -n %{module}-%{version}
