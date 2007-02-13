@@ -2,7 +2,7 @@
 %define		module	scanf
 
 Summary:	The C-scanf-like string parsing in pure Python
-Summary(pl.UTF-8):   Parser ciągów znaków w składni scanf napisany w czystym Pythonie
+Summary(pl.UTF-8):	Parser ciągów znaków w składni scanf napisany w czystym Pythonie
 Name:		python-%{module}
 Version:	1.0
 Release:	1
