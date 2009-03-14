@@ -4,12 +4,12 @@
 Summary:	The C-scanf-like string parsing in pure Python
 Summary(pl.UTF-8):	Parser ciągów znaków w składni scanf napisany w czystym Pythonie
 Name:		python-%{module}
-Version:	1.0
-Release:	2
+Version:	1.2
+Release:	1
 License:	unknown
 Group:		Libraries/Python
 Source0:	http://hkn.eecs.berkeley.edu/~dyoo/python/scanf/%{module}-%{version}.tar.gz
-# Source0-md5:	a617ca749a40c8f76dd98fc7b91a577d
+# Source0-md5:	e4c3ff4629933d5ec854743bf77017ca
 URL:		http://hkn.eecs.berkeley.edu/~dyoo/python/scanf/
 BuildRequires:	python >= 1:2.3
 %pyrequires_eq  python-modules
