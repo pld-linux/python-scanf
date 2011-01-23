@@ -12,6 +12,8 @@ Source0:	http://hkn.eecs.berkeley.edu/~dyoo/python/scanf/%{module}-%{version}.ta
 # Source0-md5:	e4c3ff4629933d5ec854743bf77017ca
 URL:		http://hkn.eecs.berkeley.edu/~dyoo/python/scanf/
 BuildRequires:	python >= 1:2.3
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq  python-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
