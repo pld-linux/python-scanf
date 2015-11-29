@@ -11,6 +11,7 @@ Group:		Libraries/Python
 Source0:	http://hkn.eecs.berkeley.edu/~dyoo/python/scanf/%{module}-%{version}.tar.gz
 # Source0-md5:	e4c3ff4629933d5ec854743bf77017ca
 URL:		http://hkn.eecs.berkeley.edu/~dyoo/python/scanf/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python >= 1:2.3
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
